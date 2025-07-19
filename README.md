@@ -33,6 +33,10 @@ Some common `psql` commands:
 - `\d table-name` to describe a table
 - `exit` - exit `psql`
 
+## Example connection string
+
+`postgres://postgres:postgres@localhost:5432/mydatabase`
+
 ## Export and Import a PostgreSQL table
 
 Here's how to export and import data from tables via CSV files using `psql`:
